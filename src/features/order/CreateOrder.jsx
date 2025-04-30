@@ -8,7 +8,7 @@ import { getCart, getTotalCartPrice } from "../cart/cartSlice";
 import EmptyCart from "../cart/EmptyCart";
 import store from "../../store";
 import { clearCart } from "../cart/cartSlice";
-import { use, useState } from "react";
+import { useState } from "react";
 import { formatCurrency } from "../../utilities/helpers";
 import { fetchAddress } from "../user/userSlice";
 
