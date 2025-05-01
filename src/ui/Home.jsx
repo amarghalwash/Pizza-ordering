@@ -20,6 +20,18 @@ function Home() {
           Continue ordering, {username}
         </Button>
       )}
+
+      <footer className="mt-16 text-sm text-gray-500">
+        Created by{" "}
+        <a
+          href="https://www.linkedin.com/in/ammar-ghalwash-80aa70277/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-yellow-500 hover:text-base hover:underline"
+        >
+          Ammar Ghalwash
+        </a>
+      </footer>
     </div>
   );
 }
